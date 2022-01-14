@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h4fyBvmr1/euEYBP6h3xmzfkIAAoDTfh/1W4ImOWmbqlGOASps+Yp1T8w/4y6itSVvCqc1jzAjrI1sEt/yvWVg==",
+  "dgSpecHash": "+3kb1wJyIEoFefIBv1SKRHFrIJzEDxvI1cjMzrohrt8SOHmxZCv+w/RF3vricuxw0zhHcG55sbCjcMpt4m5kuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\BookStoreApp\\BookStoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barış\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Barış\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.13\\microsoft.entityframeworkcore.5.0.13.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.13\\microsoft.entityframeworkcore.abstractions.5.0.13.nupkg.sha512",

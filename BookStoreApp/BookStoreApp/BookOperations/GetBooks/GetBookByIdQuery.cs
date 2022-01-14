@@ -10,6 +10,7 @@ namespace BookStoreApp.BookOperations.GetBooks
     {
         private readonly BookStoreDbContext _context;
         private readonly IMapper _mapper;
+        public int BookId { get; set; }
 
         public GetBookByIdQuery(BookStoreDbContext context, IMapper mapper)
         {
@@ -17,10 +18,9 @@ namespace BookStoreApp.BookOperations.GetBooks
             _mapper = mapper;
         }
 
-        public BookViewModel Handle(int id)
+        public BookViewModel Handle()
         {
-           
-            var book = _context.Books.SingleOrDefault(b => b.Id == id);
+            var book = _context.Books.SingleOrDefault(b => b.Id == BookId);
 
             if (book is null)
             {
