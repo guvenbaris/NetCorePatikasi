@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using BookStoreApp.DbOperations;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,10 +14,12 @@ namespace BookStoreApp.BookOperations.CreateBooks
         public CreateBookModel Model { get; set; }
 
         private readonly BookStoreDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CreateBooksCommand(BookStoreDbContext context)
+        public CreateBooksCommand(BookStoreDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public void Handle()
@@ -27,11 +30,13 @@ namespace BookStoreApp.BookOperations.CreateBooks
                 throw new InvalidOperationException("Book has been already exist.");
             }
 
-            book = new Book();
-            book.Title = Model.Title;
-            book.GenreId = Model.GenreId;
-            book.PageCount = Model.PageCount;
-            book.PublishDate = Model.PublishDate;
+
+            book = _mapper.Map<Book>(Model); //Model ile gelen nesneyi book objesine convert et.
+            // new Book();
+            //book.Title = Model.Title;
+            //book.GenreId = Model.GenreId;
+            //book.PageCount = Model.PageCount;
+            //book.PublishDate = Model.PublishDate;
 
             _context.Books.Add(book);
             _context.SaveChanges();

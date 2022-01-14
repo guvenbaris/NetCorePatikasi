@@ -12,12 +12,10 @@ namespace BookStoreApp.BookOperations.UpdateBooks
 
         public UpdateBookModel Model { get; set; }
 
-
         public UpdateBooksCommand(BookStoreDbContext context)
         {
             _context = context;
         }
-
         public void Handle(int id)
         {
             var book = _context.Books.SingleOrDefault(x => x.Id == id);
@@ -25,14 +23,12 @@ namespace BookStoreApp.BookOperations.UpdateBooks
             {
                 throw new InvalidOperationException("Book didn't find.");
             }
-
             book.Title = Model.Title ?? book.Title;
             book.GenreId = Model.GenreId != default ? Model.GenreId : book.GenreId;
             book.PageCount = Model.PageCount != default ? Model.PageCount : book.PageCount;
             book.PublishDate = Model.PublishDate != default ? Model.PublishDate : book.PublishDate;
 
             _context.SaveChanges();
-
         }
     }
     public class UpdateBookModel

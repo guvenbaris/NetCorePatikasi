@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using BookStoreApp.BookOperations.CreateBooks;
 using BookStoreApp.BookOperations.DeleteBooks;
 using BookStoreApp.BookOperations.GetBooks;
@@ -19,10 +20,12 @@ namespace BookStoreApp.Controllers
     {
 
         private readonly BookStoreDbContext _context;
+        private readonly IMapper _mapper;
 
-        public BookController(BookStoreDbContext context)
+        public BookController(BookStoreDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         //private static List<Book> BookList = new List<Book>
         //{
@@ -55,7 +58,7 @@ namespace BookStoreApp.Controllers
         [HttpGet]
         public IActionResult GetBooks()
         { 
-            GetBooksQuery getBooksQuery = new GetBooksQuery(_context);
+            GetBooksQuery getBooksQuery = new GetBooksQuery(_context,_mapper);
             var result=  getBooksQuery.Handle();
             return Ok(result);
         }
@@ -63,7 +66,7 @@ namespace BookStoreApp.Controllers
         [HttpGet("{id}")] //Root dan almak için
         public IActionResult GetById(int id)
         {
-            GetBookByIdQuery getBookByIdQuery = new GetBookByIdQuery(_context);
+            GetBookByIdQuery getBookByIdQuery = new GetBookByIdQuery(_context,_mapper);
 
             try
             {
@@ -74,7 +77,6 @@ namespace BookStoreApp.Controllers
             {
                 return BadRequest(e.Message);
             }
-
         }
 
         //[HttpGet] // Query ile id ye göre çekme.
@@ -88,7 +90,7 @@ namespace BookStoreApp.Controllers
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {
-            CreateBooksCommand createBooksCommand = new CreateBooksCommand(_context);
+            CreateBooksCommand createBooksCommand = new CreateBooksCommand(_context,_mapper);
             
             try
             {
