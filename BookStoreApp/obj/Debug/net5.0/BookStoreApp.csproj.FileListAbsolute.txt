@@ -39,3 +39,4 @@ C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bi
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Newtonsoft.Json.dll

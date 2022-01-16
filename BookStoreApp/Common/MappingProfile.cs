@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using BookStoreApp.BookOperations.CreateBooks;
-using BookStoreApp.BookOperations.GetBooks;
+﻿using AutoMapper;
+using BookStoreApp.Application.BookOperations.CreateBooks;
+using BookStoreApp.Application.BookOperations.GetBooks;
+using BookStoreApp.Application.GenreOperations.Queries.GetGenreDetail;
+using BookStoreApp.Application.GenreOperations.Queries.GetGenres;
+using BookStoreApp.Entities;
 
 namespace BookStoreApp.Common
 {
@@ -14,7 +13,10 @@ namespace BookStoreApp.Common
         {
             CreateMap<CreateBookModel, Book>();
             CreateMap<Book, BookViewModel>().ForMember(dest => dest.Genre,
-                opt => opt.MapFrom(src => ((GenreEnum)src.GenreId).ToString()));
+                opt => opt.MapFrom(src =>src.Genre.Name));
+            
+            CreateMap<Genre, GetGenresQuery.GenreViewModel>();
+            CreateMap<Genre, GenreDetailViewModel>();
         }
     }
 }

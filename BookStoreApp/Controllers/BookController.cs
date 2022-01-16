@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using AutoMapper;
-using BookStoreApp.BookOperations.CreateBooks;
-using BookStoreApp.BookOperations.DeleteBooks;
-using BookStoreApp.BookOperations.GetBooks;
+using BookStoreApp.Application.BookOperations.DeleteBooks;
+using BookStoreApp.Application.BookOperations.GetBooks;
 using BookStoreApp.BookOperations.UpdateBooks;
 using BookStoreApp.DbOperations;
 using FluentValidation;
+using BookStoreApp.Application.BookOperations.CreateBooks;
 
 namespace BookStoreApp.Controllers
 {
@@ -63,7 +63,6 @@ namespace BookStoreApp.Controllers
             CreateBookCommandValidator validator = new CreateBookCommandValidator();
 
             validator.ValidateAndThrow(createBooksCommand); // Validate and throw et
-            createBooksCommand.Handle();
             createBooksCommand.Handle();
             return Ok();
             //if (!result.IsValid)

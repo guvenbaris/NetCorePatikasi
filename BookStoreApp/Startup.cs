@@ -50,9 +50,10 @@ namespace BookStoreApp
             }
             app.UseRouting();
 
+            app.UseCustomeExceptionMiddle(); // kendi yazdýðýmýz middleware
+
             app.UseAuthorization();
 
-            app.UseCustomeExceptionMiddle(); // kendi yazdýðýmýz middleware
 
             app.UseEndpoints(endpoints =>
             {
