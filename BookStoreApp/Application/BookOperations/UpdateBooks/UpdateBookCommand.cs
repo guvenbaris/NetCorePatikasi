@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using BookStoreApp.DbOperations;
 
-namespace BookStoreApp.BookOperations.UpdateBooks
+namespace BookStoreApp.Application.BookOperations.UpdateBooks
 {
     public class UpdateBookCommand
     {
@@ -20,7 +18,7 @@ namespace BookStoreApp.BookOperations.UpdateBooks
         }
         public void Handle()
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == BookId);
+            var book = _context.Books.SingleOrDefault(x => x.BookId == BookId);
             if (book is null)
             {
                 throw new InvalidOperationException("Book didn't find.");

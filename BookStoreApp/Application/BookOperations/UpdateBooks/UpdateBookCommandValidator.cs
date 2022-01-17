@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using FluentValidation;
+﻿using FluentValidation;
 
-namespace BookStoreApp.BookOperations.UpdateBooks
+namespace BookStoreApp.Application.BookOperations.UpdateBooks
 {
     public class UpdateBookCommandValidator : AbstractValidator<UpdateBookCommand>
     {

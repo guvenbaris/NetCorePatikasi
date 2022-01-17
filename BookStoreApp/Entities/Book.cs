@@ -6,7 +6,7 @@ namespace BookStoreApp.Entities
     public class Book
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int BookId { get; set; }
         public string Title { get; set; }
         public int GenreId { get; set; }
         public Genre Genre { get; set; }

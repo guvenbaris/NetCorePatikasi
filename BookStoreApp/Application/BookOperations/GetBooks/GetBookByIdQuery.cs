@@ -20,7 +20,7 @@ namespace BookStoreApp.Application.BookOperations.GetBooks
 
         public BookViewModel Handle()
         {
-            var book = _context.Books.Include(x=>x.Genre).SingleOrDefault(b => b.Id == BookId);
+            var book = _context.Books.Include(x=>x.Genre).SingleOrDefault(b => b.BookId == BookId);
 
             if (book is null)
             {

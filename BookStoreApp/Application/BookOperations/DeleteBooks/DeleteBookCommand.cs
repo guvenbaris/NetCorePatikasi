@@ -17,10 +17,10 @@ namespace BookStoreApp.Application.BookOperations.DeleteBooks
 
         public void Handle()
         {
-            var book = _context.Books.SingleOrDefault(b => b.Id == BookId);
+            var book = _context.Books.SingleOrDefault(b => b.BookId == BookId);
             if (book is null)
             {
-                throw new InvalidOperationException("Book didn't exist");
+                throw new InvalidOperationException("Book didn't find");
             }
 
             _context.Books.Remove(book);

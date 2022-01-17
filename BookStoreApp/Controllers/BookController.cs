@@ -3,10 +3,10 @@ using System;
 using AutoMapper;
 using BookStoreApp.Application.BookOperations.DeleteBooks;
 using BookStoreApp.Application.BookOperations.GetBooks;
-using BookStoreApp.BookOperations.UpdateBooks;
 using BookStoreApp.DbOperations;
 using FluentValidation;
 using BookStoreApp.Application.BookOperations.CreateBooks;
+using BookStoreApp.Application.BookOperations.UpdateBooks;
 
 namespace BookStoreApp.Controllers
 {

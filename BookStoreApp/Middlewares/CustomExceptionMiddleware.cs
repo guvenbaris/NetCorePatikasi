@@ -51,7 +51,7 @@ namespace BookStoreApp.Middlewares
                              + " in " + watch.Elapsed.TotalMilliseconds;
             _loggerService.Write(message);
 
-            var result = JsonConvert.SerializeObject(new {error = ex.Message},Formatting.None);
+            var result = JsonConvert.SerializeObject(new {error = ex.Message});
 
             return context.Response.WriteAsync(result);
         }

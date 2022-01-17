@@ -16,11 +16,35 @@ namespace BookStoreApp.DbOperations
                 {
                     return;
                 }
+
+                context.Authors.AddRange(
+                new Author
+                {
+                    AuthorName = "Cemal",
+                    AuthorSurname = "Süreya",
+                    BookId = 1,
+                    Birthdate = new DateTime(1931, 01, 10),
+                },
+                new Author
+                {
+                    AuthorName = "Yaşar",
+                    AuthorSurname = "Kemal",
+                    BookId = 2,
+                    Birthdate = new DateTime(1923, 10, 6),
+                },
+                new Author
+                {
+                    AuthorName = "Cahit Sıtkı",
+                    AuthorSurname = "Tarancı",
+                    BookId = 3,
+                    Birthdate = new DateTime(1910, 10, 2),
+                }
+                );
                 context.Genres.AddRange(
                     
                     new Genre
                     {
-                        Name = "Personal Growth",
+                        Name = "Poetry Book",
                     },
                     new Genre
                     {
@@ -36,26 +60,26 @@ namespace BookStoreApp.DbOperations
                     new Book
                     {
                         //Id = 1,
-                        Title = "Lean Startup",
+                        Title = "Göçebe",
                         GenreId = 1,
-                        PageCount = 200,
-                        PublishDate = new DateTime(2001, 06, 12)
+                        PageCount = 48,
+                        PublishDate = new DateTime(1965, 06, 12)
                     },
                     new Book
                     {
                         //Id = 2,
-                        Title = "Herland",
-                        GenreId = 2,
-                        PageCount = 250,
-                        PublishDate = new DateTime(2010, 05, 23)
+                        Title = "İnce Memed",
+                        GenreId = 3,
+                        PageCount = 436,
+                        PublishDate = new DateTime(1955, 05, 24)
                     },
                     new Book
                     {
                         //Id = 3,
-                        Title = "Dune",
-                        GenreId = 2,
-                        PageCount = 540,
-                        PublishDate = new DateTime(2001, 12, 21)
+                        Title = "Yaş 35",
+                        GenreId = 1,
+                        PageCount = 281,
+                        PublishDate = new DateTime(1946, 12, 21)
                     }
                 );
 

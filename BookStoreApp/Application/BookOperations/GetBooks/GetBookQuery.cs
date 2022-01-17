@@ -19,7 +19,7 @@ namespace BookStoreApp.Application.BookOperations.GetBooks
 
         public List<BookViewModel> Handle()
         {
-            var bookList = _context.Books.Include(x=>x.Genre).OrderBy(x => x.Id).ToList();
+            var bookList = _context.Books.Include(x=>x.Genre).OrderBy(x => x.BookId).ToList();
 
             List<BookViewModel> vm = _mapper.Map<List<BookViewModel>>(bookList);
             
