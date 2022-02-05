@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tw/3C1N/DPJj9DJDZl+lNZOvO3wrA2dajFS76FB2BdD67u5kv1krJ3ox2iSz8YXh3IP3jk8KQ50aj9EUM4oZ7g==",
+  "dgSpecHash": "LoT60AIty5VVuxQjoB68ulKGZfldnYYgOXTQClA6Hyi5PBtn3xx1NB0aao9TafmWy7dBU4VfS512X7EUibqqrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\BookStoreApp\\BookStoreApp.csproj",
+  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\BookStoreApp\\BookStoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barış\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

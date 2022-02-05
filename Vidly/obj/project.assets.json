@@ -6237,11 +6237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Vidly\\Vidly.csproj",
+      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Vidly\\Vidly.csproj",
       "projectName": "Vidly",
-      "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Vidly\\Vidly.csproj",
+      "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Vidly\\Vidly.csproj",
       "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Vidly\\obj\\",
+      "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Vidly\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",
