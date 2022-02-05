@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QUPz7IHSyPxzesGz8a2ZVxMVYgioNLfxLrsMUo5VGE17aLNZsnZO2iqSgOkBrJ9IVsjhl7KTA6jZGcqnN/mvWg==",
+  "dgSpecHash": "2Df3eygcdpnd/1hvDyZkwBNhR+5660Ek4FyXwuxw/eJEXWCli+EmFfwkUXtNjCTNICOUhd0wRMaclHMIOKfQyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Vidly\\Vidly.csproj",
+  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Vidly\\Vidly.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barış\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
