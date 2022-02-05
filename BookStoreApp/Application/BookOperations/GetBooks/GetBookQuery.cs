@@ -8,10 +8,10 @@ namespace BookStoreApp.Application.BookOperations.GetBooks
 {
     public class GetBookQuery
     {
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
 
-        public GetBookQuery(BookStoreDbContext context, IMapper mapper)
+        public GetBookQuery(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

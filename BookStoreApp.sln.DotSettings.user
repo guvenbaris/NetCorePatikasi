@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b2df1948_002D5f71_002D440a_002Da354_002Da84c8c5b6061/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InvalidOperationException_WhenAlreadyExistBookTitleIsGiven_ShouldBeReturn" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E85B0E1E-35F1-49CF-9E0D-2C2F881DE6BF::net5.0::WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommandTests.InvalidOperationException_WhenAlreadyExistBookTitleIsGiven_ShouldBeReturn&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E85B0E1E-35F1-49CF-9E0D-2C2F881DE6BF::net5.0::WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommandValidatorTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cee96cc6_002D23b3_002D4cff_002Da36e_002Da4f1d4ad2209/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WhenInvalidInputsAreGiven_Validator_ShouldBeReturnErrors" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E85B0E1E-35F1-49CF-9E0D-2C2F881DE6BF::net5.0::WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommandValidatorTests.WhenInvalidInputsAreGiven_Validator_ShouldBeReturnErrors&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E85B0E1E-35F1-49CF-9E0D-2C2F881DE6BF::net5.0::WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommandValidatorTests.WhenDateTimeEqualNowIsGiven_Validator_ShouldBeReturnError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E85B0E1E-35F1-49CF-9E0D-2C2F881DE6BF::net5.0::WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommandValidatorTests.WhenValidIntputAreGiven_Validator_ShouldBeNotReturnError&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

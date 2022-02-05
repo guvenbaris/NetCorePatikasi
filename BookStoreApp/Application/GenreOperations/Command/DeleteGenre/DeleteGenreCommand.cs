@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using BookStoreApp.DbOperations;
-using Newtonsoft.Json.Bson;
 
 namespace BookStoreApp.Application.GenreOperations.Command.DeleteGenre
 {
@@ -11,9 +8,9 @@ namespace BookStoreApp.Application.GenreOperations.Command.DeleteGenre
     {
         public int GenreId { get; set; }
 
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
 
-        public DeleteGenreCommand(BookStoreDbContext context)
+        public DeleteGenreCommand(IBookStoreDbContext context)
         {
             _context = context;
         }
