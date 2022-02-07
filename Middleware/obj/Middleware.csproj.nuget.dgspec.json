@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Middleware\\Middleware.csproj": {}
+    "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Middleware\\Middleware.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Middleware\\Middleware.csproj": {
+    "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Middleware\\Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Middleware\\Middleware.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Middleware\\Middleware.csproj",
         "projectName": "Middleware",
-        "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Middleware\\Middleware.csproj",
+        "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Middleware\\Middleware.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\Middleware\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\Middleware\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

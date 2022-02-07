@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WtgOJpKV56SktyVz2KcGmY1GNbXlSXMZZ4pfyQpMlTQZmKf1fDJRyERcfkWsjzYXYAzMypYy1ULhuh5fRK3ERA==",
+  "dgSpecHash": "/m+22ukVyYoFu047RgmAqm2W1fENq3LagiQ67ReTNkDeDIATEknmW/QeT3f39TybJTVo2o7/zLdhFDI59msrJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barış\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Barış\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

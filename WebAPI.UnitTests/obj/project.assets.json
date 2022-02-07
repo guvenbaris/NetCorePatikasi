@@ -7319,11 +7319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
       "projectName": "WebAPI.UnitTests",
-      "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
+      "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\WebAPI.UnitTests\\WebAPI.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\WebAPI.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\WebAPI.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7340,8 +7340,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\BookStoreApp\\BookStoreApp.csproj": {
-              "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\BookStoreApp\\BookStoreApp\\BookStoreApp.csproj"
+            "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\BookStoreApp\\BookStoreApp.csproj": {
+              "projectPath": "C:\\Users\\Barış\\Desktop\\Ünlü&Co Patika\\BookStore\\Clone\\NetCorePatikasi\\BookStoreApp\\BookStoreApp.csproj"
             }
           }
         }
