@@ -4,7 +4,7 @@ using FluentAssertions;
 using WebAPI.UnitTests.TestSetup;
 using Xunit;
 
-namespace WebAPI.UnitTests.Appllication.BookOperations.Commands
+namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommand
 {
     public class CreateBookCommandValidatorTests : IClassFixture<CommanTextFixture>
     {
@@ -15,7 +15,7 @@ namespace WebAPI.UnitTests.Appllication.BookOperations.Commands
         [InlineData("",0,0)]
         [InlineData("",100,1)]
         [InlineData("Lor",100,0)]
-        [InlineData("Lor",100,1)]
+        [InlineData("Lor",100,1)]""
         [InlineData("Lord",100,0)]
         [InlineData("Lord",0,1)]
         public void WhenInvalidInputsAreGiven_Validator_ShouldBeReturnErrors(string title, int pageCount,int genreId)

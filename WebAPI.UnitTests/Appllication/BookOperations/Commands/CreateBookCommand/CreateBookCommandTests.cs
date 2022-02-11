@@ -8,7 +8,7 @@ using FluentAssertions;
 using WebAPI.UnitTests.TestSetup;
 using Xunit;
 
-namespace WebAPI.UnitTests.Appllication.BookOperations.Commands
+namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommand
 {
     public class CreateBookCommandTests  : IClassFixture<CommanTextFixture>
     {

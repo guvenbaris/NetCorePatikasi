@@ -1,6 +1,4 @@
-﻿using System.Runtime;
-using AutoMapper.Configuration.Conventions;
-using BookStoreApp.Entities;
+﻿using BookStoreApp.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookStoreApp.DbOperations
@@ -15,10 +13,5 @@ namespace BookStoreApp.DbOperations
         public DbSet<Book> Books { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Author> Authors { get; set; }
-
-        public override int SaveChanges()
-        {
-            return base.SaveChanges();
-        }
     }
 }
