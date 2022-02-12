@@ -33,6 +33,7 @@ namespace BookStoreApp.Application.AuthorOperations.Command.UpdateAuthor
             author.AuthorName = string.IsNullOrEmpty(Model.AuthorName) != default ? Model.AuthorName : author.AuthorName;
             author.AuthorSurname = string.IsNullOrEmpty(Model.AuthorSurname) != default ? Model.AuthorSurname : author.AuthorSurname;
             author.BookId = Model.BookId != default ? Model.BookId : author.BookId;
+            _context.Authors.Update(author);
             _context.SaveChanges();
         }
     }

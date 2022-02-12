@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Appllication\BookOperations\Queries\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BookStoreApp\BookStoreApp.csproj" />
   </ItemGroup>
 

@@ -25,6 +25,7 @@ namespace BookStoreApp.Application.BookOperations.UpdateBooks
             }
             book.Title = Model.Title ?? book.Title;
             book.GenreId = Model.GenreId != default ? Model.GenreId : book.GenreId;
+            _context.Books.Update(book);
             _context.SaveChanges();
         }
     }

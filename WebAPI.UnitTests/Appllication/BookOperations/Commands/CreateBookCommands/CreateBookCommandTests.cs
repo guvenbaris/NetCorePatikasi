@@ -8,7 +8,9 @@ using FluentAssertions;
 using WebAPI.UnitTests.TestSetup;
 using Xunit;
 
-namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommand
+
+
+namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookCommands
 {
     public class CreateBookCommandTests  : IClassFixture<CommanTextFixture>
     {
@@ -30,10 +32,12 @@ namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookComman
                 Title = "Test_InvalidOperationException_WhenAlreadyExistBookTitleIsGiven_ShouldBeReturn",
                 PageCount = 100, PublishDate = new DateTime(1990, 01, 10), GenreId = 1
             };
+
+
             _context.Books.Add(book);
             _context.SaveChanges();
 
-            CreateBookCommand command = new CreateBookCommand(_context, _mapper);
+           CreateBookCommand command = new CreateBookCommand(_context, _mapper);
             command.Model = new CreateBookModel(){Title = book.Title};
 
             //Act & Assert(Çalıştırma)
@@ -45,7 +49,7 @@ namespace WebAPI.UnitTests.Appllication.BookOperations.Commands.CreateBookComman
         [Fact]
         public void WhenValidInputsAreGiven_Book_ShouldBeCreated()
         {
-            CreateBookCommand command = new CreateBookCommand(_context, _mapper);
+           CreateBookCommand command = new CreateBookCommand(_context, _mapper);
             CreateBookModel model = new CreateBookModel()
             {
                 GenreId = 1,

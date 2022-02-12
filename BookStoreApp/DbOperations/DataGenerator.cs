@@ -59,7 +59,7 @@ namespace BookStoreApp.DbOperations
                 context.Books.AddRange(
                     new Book
                     {
-                        //Id = 1,
+                        BookId = 1,
                         Title = "Göçebe",
                         GenreId = 1,
                         PageCount = 48,
@@ -67,7 +67,7 @@ namespace BookStoreApp.DbOperations
                     },
                     new Book
                     {
-                        //Id = 2,
+                        BookId = 2,
                         Title = "İnce Memed",
                         GenreId = 3,
                         PageCount = 436,
@@ -75,7 +75,7 @@ namespace BookStoreApp.DbOperations
                     },
                     new Book
                     {
-                        //Id = 3,
+                        BookId = 3,
                         Title = "Yaş 35",
                         GenreId = 1,
                         PageCount = 281,

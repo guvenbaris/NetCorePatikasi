@@ -21,16 +21,15 @@ namespace BookStoreApp.Application.GenreOperations.Queries.GetGenres
         public List<GenreViewModel> Handle()
         {
             var genres = _context.Genres.Where(x => x.IsActive).OrderBy(x => x.Id);
-            List<GenreViewModel> returnObj = _mapper.Map<List<GenreViewModel>>(genres);
 
-            return returnObj;
+            return _mapper.Map<List<GenreViewModel>>(genres);
 
         }
+    }
 
-        public class GenreViewModel
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-        }
+    public class GenreViewModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

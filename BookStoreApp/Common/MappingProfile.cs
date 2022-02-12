@@ -18,7 +18,7 @@ namespace BookStoreApp.Common
             CreateMap<Book, BookViewModel>().ForMember(dest => dest.Genre,
                 opt => opt.MapFrom(src =>src.Genre.Name));
             
-            CreateMap<Genre, GetGenresQuery.GenreViewModel>();
+            CreateMap<Genre, GenreViewModel>();
             CreateMap<Genre, GenreDetailViewModel>();
 
             CreateMap<CreateAuthorModel, Author>();

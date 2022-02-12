@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using AutoMapper;
 using BookStoreApp.DbOperations;
 
 namespace BookStoreApp.Application.BookOperations.DeleteBooks
@@ -7,6 +8,7 @@ namespace BookStoreApp.Application.BookOperations.DeleteBooks
     public class DeleteBookCommand
     {
         private readonly IBookStoreDbContext _context;
+        private readonly IMapper _mapper;
 
         public DeleteBookCommand(IBookStoreDbContext context)
         {
