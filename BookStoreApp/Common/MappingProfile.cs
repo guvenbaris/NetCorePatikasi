@@ -6,6 +6,7 @@ using BookStoreApp.Application.BookOperations.CreateBooks;
 using BookStoreApp.Application.BookOperations.GetBooks;
 using BookStoreApp.Application.GenreOperations.Queries.GetGenreDetail;
 using BookStoreApp.Application.GenreOperations.Queries.GetGenres;
+using BookStoreApp.Application.UserOperaitons.Commands.CreateUser;
 using BookStoreApp.Entities;
 
 namespace BookStoreApp.Common
@@ -27,7 +28,7 @@ namespace BookStoreApp.Common
 
             CreateMap<Author, AuthorQueryDetailModel>().ForMember(dest => dest.Book,
                 opt => opt.MapFrom(src => src.Book.Title));
-
+            CreateMap<CreateUserModel, User>();
         }
     }
 }

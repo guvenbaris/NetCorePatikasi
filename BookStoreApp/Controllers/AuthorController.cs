@@ -16,7 +16,7 @@ using FluentValidation;
 
 namespace BookStoreApp.Controllers
 {
-    [Route("[controller]s")]
+    [Route("api/[controller]s")]
     [ApiController]
     public class AuthorController : ControllerBase
     {

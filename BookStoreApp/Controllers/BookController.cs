@@ -7,11 +7,13 @@ using BookStoreApp.DbOperations;
 using FluentValidation;
 using BookStoreApp.Application.BookOperations.CreateBooks;
 using BookStoreApp.Application.BookOperations.UpdateBooks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApp.Controllers
 {
-    [Route("[controller]s")] // controller'ın ismi ve sonuna s takısı ile gelecek.
+    [Authorize]
     [ApiController]
+    [Route("api/[controller]s")]
     public class BookController : ControllerBase
     {
 

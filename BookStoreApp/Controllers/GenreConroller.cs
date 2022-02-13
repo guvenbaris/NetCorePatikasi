@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreApp.Controllers
 {
-    [Route("[controller]s")]
+    [Route("api/[controller]")]
     [ApiController]
     public class GenreController :ControllerBase
     {

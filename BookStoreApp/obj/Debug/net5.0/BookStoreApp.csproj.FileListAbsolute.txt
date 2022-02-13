@@ -82,3 +82,10 @@ C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookSt
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\obj\Debug\net5.0\ref\BookStoreApp.dll
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\obj\Debug\net5.0\BookStoreApp.pdb
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\obj\Debug\net5.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\Clone\NetCorePatikasi\BookStoreApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
